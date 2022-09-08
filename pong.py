@@ -56,7 +56,8 @@ def draw_ball():
     if ball_position[0] == 1 and (bat_y - 1) <= ball_position[1] <= (bat_y +1):
         ball_velocity[0] = -ball_velocity[0]
 
-# Dit is een loop, zolang het TRUE IS blijft hij de functies uitvoeren die er onder staan.
+# Dit is een loop, zolang het TRUE IS blijft
+# hij de functies uitvoeren die er onder staan.
 while True:
     draw_bat()
     sleep(0.25)
